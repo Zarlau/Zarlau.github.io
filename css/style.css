@@ -1,0 +1,15 @@
+body{
+    font-family: 'Lemon', serif;
+}
+.content{
+   width: 600px;
+}
+.content-wrraper{
+  display: flex;
+}
+  .user-photo{
+   width: 300px; 
+  }
+  .content-box{
+ 
+  }
