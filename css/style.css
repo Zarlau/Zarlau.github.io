@@ -1,15 +1,48 @@
-body{
-    font-family: 'Lemon', serif;
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
 }
-.content{
-   width: 600px;
-}
-.content-wrraper{
+
+.content-wrraper {
   display: flex;
+  
+  margin-top: 30px;
+  padding-left: 30px;
 }
-  .user-photo{
-   width: 300px; 
-  }
-  .content-box{
- 
-  }
+
+.content-box {
+  width: 500px;
+}
+
+.content__name {
+  font-weight: 700;
+  font-size: 28px;
+  margin-top: 10px;
+}
+
+.content__text {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 25px;
+}
+
+.content__link {
+  color: darkgrey;
+  font-size: 15px;
+}
+.content__portfolio{
+  color: black;
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+  align-items: center;
+}
+.content__link-box{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.user-photo {
+  width: 200px;
+}
